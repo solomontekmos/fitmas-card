@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vasantha Kumar | Fitmos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #ffffff;
+            color: #17468d;
+            text-align: center;
+        }
+
+        .wrapper {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .logo {
+            width: 260px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .hero {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            border-radius: 6px;
+            filter: grayscale(100%);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin: 18px 0 5px;
+            color: #17468d;
+            font-weight: 800;
+            text-transform: uppercase;
+        }
+
+        .role {
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+
+        .contact-block {
+            margin: 30px 0;
+        }
+
+        .contact-icon {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 42px;
+            text-decoration: none;
+            margin-bottom: 14px;
+        }
+
+        .whatsapp-icon {
+            color: #25D366;
+        }
+
+        .phone-icon,
+        .email-icon {
+            color: #000000;
+        }
+
+        .contact-link {
+            display: block;
+            font-size: 26px;
+            color: #17468d;
+            text-decoration: none;
+            margin-bottom: 30px;
+        }
+
+        .contact-link:hover {
+            text-decoration: underline;
+        }
+
+        .line {
+            height: 1px;
+            background: #17468d;
+            margin: 20px 0 35px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #1f7a3a;
+            color: white;
+            padding: 12px 22px;
+            border-radius: 7px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 14px;
+            margin: 8px;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+
+        .company {
+            font-size: 13px;
+            font-weight: bold;
+            margin-top: 18px;
+            line-height: 1.5;
+        }
+
+        .group-title {
+            margin: 35px 0 20px;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .logos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            align-items: center;
+        }
+
+        .logos img {
+            width: 100%;
+            max-height: 85px;
+            object-fit: contain;
+        }
+
+        .website {
+            margin: 25px 0;
+            font-size: 20px;
+            color: #17468d;
+            text-decoration: none;
+            display: block;
+        }
+
+        .add-contact {
+            background: #17468d;
+        }
+
+        @media (max-width: 600px) {
+            .wrapper {
+                max-width: 100%;
+                padding: 16px;
+            }
+
+            .logo {
+                width: 230px;
+            }
+
+            .hero {
+                height: 220px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .role {
+                font-size: 16px;
+            }
+
+            .contact-link {
+                font-size: 23px;
+            }
+
+            .logos {
+                gap: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <img src="assets/images/fitmos-logo.png" class="logo" alt="Fitmos Logo">
+
+    <img src="assets/images/card-hero.jpeg" class="hero" alt="Pipes">
+
+    <h1>Vasantha Kumar</h1>
+    <div class="role">Manager - Technical & Commercial</div>
+
+    <div class="contact-block">
+        <a href="https://wa.me/971545136134" class="contact-icon whatsapp-icon" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+
+        <a class="contact-link" href="https://wa.me/971545136134" target="_blank">
+            +971 54 513 6134
+        </a>
+    </div>
+
+    <div class="contact-block">
+        <a href="tel:+97143932877" class="contact-icon phone-icon">
+            <i class="fas fa-phone-volume"></i>
+        </a>
+
+        <a class="contact-link" href="tel:+97143932877">
+            +971 4 393 2877
+        </a>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="contact-block">
+        <a href="mailto:sales1@fitmos.ae" class="contact-icon email-icon">
+            <i class="fas fa-envelope"></i>
+        </a>
+
+        <a class="contact-link" href="mailto:sales1@fitmos.ae">
+            sales1@fitmos.ae
+        </a>
+    </div>
+
+    <a class="btn" href="assets/brochures/fitmos-brochure.pdf" download>
+        DOWNLOAD BROCHURE
+    </a>
+
+    <div class="company">
+        FITMOS PIPES & FITTINGS TRADING L.L.C<br>
+        P.O BOX: 251073, DUBAI - UAE
+    </div>
+
+    <div class="group-title">Group Of Companies</div>
+
+    <div class="logos">
+        <img src="assets/images/al-moosawi.png" alt="Al Moosawi">
+        <img src="assets/images/starlane.png" alt="Al Moosawi Starland Transport">
+        <img src="assets/images/ocean-marine.png" alt="Ocean Marine">
+        <img src="assets/images/mevf.png" alt="Middle East Valves and Fittings">
+        <img src="assets/images/captain.png" alt="Captain Marine Service">
+        <img src="assets/images/al-shaheen.png" alt="Al Shaheen">
+        <img src="assets/images/whitefield.png" alt="Whitefield Autospares">
+        <img src="assets/images/valmos.png" alt="Valmos Trading">
+    </div>
+
+    <a class="website" href="https://www.fitmos.ae" target="_blank">
+        www.fitmos.ae
+    </a>
+
+    <a class="btn add-contact" href="assets/contacts/vasantha.vcf" download>
+        ADD TO CONTACTS
+    </a>
+
+</div>
+
+</body>
+</html>
